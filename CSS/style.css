@@ -88,12 +88,17 @@ main {
     max-width: 1140px;
 }
 
+section {
+    margin-top: 100px;
+}
+
 /* About 1st part */
 .about {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 70px 80px;
     text-align: center;
+
 }
 
 .section-title {
@@ -125,4 +130,50 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+.skill-introduction {
+    margin-bottom: 30px;
+}
+
+.skill-introduction-title {
+    text-align: center;
+}
+
+.skill-introduction-description {
+    text-align: center;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.skill {
+
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.skill-title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* style resumr part */
+
+.resume-section-title {
+    text-align: center;
 }
