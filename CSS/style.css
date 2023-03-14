@@ -139,6 +139,7 @@ section {
 
 .skill-introduction-title {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .skill-introduction-description {
@@ -212,4 +213,30 @@ section {
 .resume-button {
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact part */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 100px 100px;
+}
+
+.contact-title {
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    margin-bottom: 15px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
 }
